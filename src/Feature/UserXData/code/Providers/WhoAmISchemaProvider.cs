@@ -2,18 +2,11 @@
 using System.Collections.Generic;
 using System.Web;
 using GraphQL.Types;
-using Sitecore.Data.Fields;
-using FieldType = GraphQL.Types.FieldType;
-
-using System;
-using System.Collections.Generic;
-using System.Web;
-using GraphQL.Resolvers;
-using GraphQL.Types;
 using Sitecore.Security.Accounts;
 using Sitecore.Services.GraphQL.Schemas;
+using FieldType = GraphQL.Types.FieldType;
 
-namespace Sitecore.Services.GraphQL.Examples
+namespace Sitecore.Feature.UserXData.Providers
 {
     /// <summary>
     /// Sample of making your own schema provider
@@ -30,7 +23,7 @@ namespace Sitecore.Services.GraphQL.Examples
         /// Teaches GraphQL how to resolve the `whoAmI` root field.
         ///
         /// RootFieldType<UserGraphType, User> means this root field maps a `User` domain object into the `UserGraphType` graph type object.
-        /// </summary>
+        ///</summary>
         protected class WhoAmIQuery : RootFieldType<UserGraphType, User>
         {
             public WhoAmIQuery() : base(name: "whoAmI", description: "Gets the current user")
