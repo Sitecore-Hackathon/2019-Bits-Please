@@ -280,6 +280,7 @@
     </Reference>
     <Reference Include="Sitecore.Web, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Web.3.0.0\lib\net471\Sitecore.Web.dll</HintPath>
+	</Reference>
     <Reference Include="Sitecore.Services.GraphQL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Services.GraphQL.1.1.2\lib\netstandard2.0\Sitecore.Services.GraphQL.dll</HintPath>
     </Reference>
