@@ -6,4 +6,4 @@ Automatic Personalizations for clients based on their interactions, is a key fea
 The following proof of concept allows user's interaction to refine the way the page is rendered for him. 
 Sitecore JSS has the potential through JSS Tracker to get user information from xConnect, understanding what personalization the user needs and show a placeholder on next n number of visits.
 
-![picture](2019-Bits-Please/documentation/concept proof.PNG)
+![concept proof](2019-Bits-Please/documentation/concept proof.PNG)
