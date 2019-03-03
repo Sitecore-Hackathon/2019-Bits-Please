@@ -451,10 +451,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Sitecore\Services.GraphQL\Sitecore.Services.GraphQL.Content.WhoAmI.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\UserXDataController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\WhoAmISchemaProvider.cs" />
   </ItemGroup>
@@ -469,6 +469,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
